@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kaki/screens/homePage.dart';
+import 'package:kaki/screens/home_page.dart';
 
 void main() => runApp(MyApp());
 

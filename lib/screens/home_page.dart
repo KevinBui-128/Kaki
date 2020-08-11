@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:kaki/screens/category/categoryScreen.dart';
-import 'package:kaki/screens/home/homeScreen.dart';
-import 'package:kaki/screens/notification/notificationScreen.dart';
-import 'package:kaki/screens/personal/personalScreen.dart';
-import 'package:kaki/screens/search/searchScreen.dart';
+import 'package:kaki/screens/category/category_screen.dart';
+import 'package:kaki/screens/home/home_screen.dart';
+import 'package:kaki/screens/notification/notification_screen.dart';
+import 'package:kaki/screens/personal/personal_screen.dart';
+import 'package:kaki/screens/search/search_screen.dart';
 
 class HomePage extends StatefulWidget {
   @override
