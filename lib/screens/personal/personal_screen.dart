@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
 
-class PersonalScreen extends StatefulWidget {
-  @override
-  _PersonalScreenState createState() => _PersonalScreenState();
-}
-
-class _PersonalScreenState extends State<PersonalScreen> {
+class PersonalScreen extends StatelessWidget {
+  static const personalScreen = "Cá nhân";
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text("Personal"),),
-    );
+    return Container();
   }
 }

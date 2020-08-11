@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 
-class LoginRegisterScreen extends StatefulWidget {
-  @override
-  _LoginRegisterScreenState createState() => _LoginRegisterScreenState();
-}
-
-class _LoginRegisterScreenState extends State<LoginRegisterScreen> {
+class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

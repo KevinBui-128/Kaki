@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
 
-class NotificationScreen extends StatefulWidget {
-  @override
-  _NotificationScreenState createState() => _NotificationScreenState();
-}
-
-class _NotificationScreenState extends State<NotificationScreen> {
+class NotificationScreen extends StatelessWidget {
+  static const notificationScreen = "Thông báo";
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text("Notification"),),
-    );
+    return Container();
   }
 }

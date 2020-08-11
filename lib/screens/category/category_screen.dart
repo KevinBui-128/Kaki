@@ -1,15 +1,9 @@
 import 'package:flutter/material.dart';
 
-class CategoryScreen extends StatefulWidget {
-  @override
-  _CategoryScreenState createState() => _CategoryScreenState();
-}
-
-class _CategoryScreenState extends State<CategoryScreen> {
+class CategoryScreen extends StatelessWidget {
+  static const categoryScreen = "Danh mục";
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text("Category"),),
-    );
+    return Container();
   }
 }
