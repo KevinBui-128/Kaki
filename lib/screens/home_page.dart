@@ -12,13 +12,19 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _index = 0;
-  final List<Widget> _screen = [
-    HomeScreen(),
-    CategoryScreen(),
-    SearchScreen(),
-    NotificationScreen(),
-    PersonalScreen()
-  ];
+  List<Widget> _screen;
+  @override
+  void initState() {
+    _screen = [
+      HomeScreen(),
+      CategoryScreen(),
+      SearchScreen(),
+      NotificationScreen(),
+      PersonalScreen()
+    ];
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,8 +52,9 @@ class _HomePageState extends State<HomePage> {
                   : Icon(Icons.notifications_none)),
           BottomNavigationBarItem(
               title: Text('Cá nhân'),
-              icon:
-                  _index == 4 ? Icon(Icons.person) : Icon(Icons.person_outline)),
+              icon: _index == 4
+                  ? Icon(Icons.person)
+                  : Icon(Icons.person_outline)),
         ],
       ),
     );
